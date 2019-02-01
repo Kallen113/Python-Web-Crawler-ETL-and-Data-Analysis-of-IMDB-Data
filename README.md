@@ -1,4 +1,4 @@
-# Python-Web-Crawler-IMDB-data-analysis
+# Python_Web_Crawler_IMDB_data_analysis
 Web crawler using beautifulsoup library; data cleaning, statistics, and analysis using Pandas, matplotlib, and seaborn 
 
 This repository comprises several Python scripts that implement (among other things): a web crawler that extracts the first 
