@@ -1,5 +1,5 @@
 # Python_Web_Crawler_IMDB_data_analysis
-Summary: the following repository contains 9+ Jupyter notebooks. There are 2 or more parts to each notebook: 
+Summary: the following repository contains 9 Jupyter notebooks. There are 2 or more parts to each notebook: 
 
 1.) Web crawler for extracting data: Several of the notebooks start with a Python Web crawler using the beautifulsoup library. The web crawler extracts one or more pages of film data from the IMDB database, including a for loop in several of the notebooks iterating over several variables such as metascores, IMDB ratings, and/or the number of IMDB votes for a given film. 
 
