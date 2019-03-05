@@ -1,5 +1,8 @@
 # Python_Web_Crawler_IMDB_data_analysis
-Summary: the following repository contains 9 Jupyter notebooks of Python code; Part I is shown directly in the main branch, while the other 8 files are uploaded to one of 3 folders, for ease of reference. 
+Summary: the following repository contains 9 Jupyter notebooks of Python code implementing web crawlers, data visualizations,
+data analyses (e.g., exploratory data analysis, OLS regression analysis). 
+
+Part I is shown directly in the main branch, while the other 8 files are uploaded to one of 3 folders, for ease of reference. 
 
 There are 2 or more components to each notebook: 
 
