@@ -1,6 +1,7 @@
 # Python_Web_Crawler_IMDB_data_analysis
 Summary: the following repository contains 9 Jupyter notebooks of Python code implementing web crawlers, data visualizations,
-data analyses (e.g., exploratory data analysis, OLS regression analysis). 
+data analyses (e.g., exploratory data analysis, OLS regression analysis), and/or importing the web crawler data into an SQL
+database via SQLAlchemy. 
 
 Part I is shown directly in the main branch, while the other 8 files are uploaded to one of 3 folders, for ease of reference. 
 
