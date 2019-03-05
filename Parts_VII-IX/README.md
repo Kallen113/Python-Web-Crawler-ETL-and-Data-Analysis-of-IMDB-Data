@@ -1,5 +1,5 @@
 This folder contains 3 additional Jupyter notebooks. Parts VII and VIII peform import Mojo Box Office data on the top 300 films
-in terms of inflation-adjusted box office revenues. The code then merges the Box Office data with the 1936-2017 IMDB dataset
+in terms of inflation-adjusted box office revenues. The code merges the Box Office data with the 1936-2017 IMDB dataset
 (i.e., from Parts II-III). Finally, more advanced data visualizations are implemented: barplots of aggregations, boxplots, 
 and scatterplots. 
 
