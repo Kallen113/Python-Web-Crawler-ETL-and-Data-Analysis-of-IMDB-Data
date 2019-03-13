@@ -1,11 +1,13 @@
 # Python_Web_Crawler_IMDB_data_analysis
-Summary: the following repository contains 9 Jupyter notebooks of Python code implementing web crawlers, data visualizations,
+# Summary: 
+
+The following repository contains 9 Jupyter notebooks of Python code implementing web crawlers, data visualizations,
 data analyses (e.g., exploratory data analysis, OLS regression analysis), and/or importing the web crawler data into an SQL
 database via SQLAlchemy. 
 
 Part I is shown directly in the main branch, while the other 8 files are uploaded to one of 3 folders, for ease of reference. 
 
-There are 2 or more components to each notebook: 
+## There are 2 or more components to each notebook: 
 
 1.) Web crawler for extracting data: Several of the notebooks start with a Python Web crawler using the beautifulsoup library. The web crawler extracts one or more pages of film data from the IMDB database, including a for loop in several of the notebooks iterating over several variables such as metascores, IMDB ratings, and/or the number of IMDB votes for a given film. 
 
@@ -16,6 +18,8 @@ There are 2 or more components to each notebook:
 For example, one of the Jupyter notebooks--navigate to the "Parts_II-III" folder, and open the notebook entitled "Python_Web_crawler_IMDB_Part_II_1936-2017_analysis.ipny"--saved on this  repository implements a web crawler that extracts the first 5 pages of IMDB films data for each year during a long range (e.g., 1936-2017) from the IMDB site, collecting data for variables such as metascore, IMDB rating, etc. 
 
 For easy reference, the following code implements the web crawler for a single page of IMDB films; in this case, it extracts data for the top-250 films in terms of IMDB ratings:
+
+## Code for webcrawler of top-250 IMDB films webpage:
 
 ```
 #import requests library
@@ -96,7 +100,7 @@ for film in film_html:
         
 ```
 
-Description of the web crawler code:
+## Description of the web crawler code:
 
 After importing the requests and Beautifulsoup libraries, a beautifulsoup object was initialized, and the first 1000 characters of the webpage's source HTML code was displayed to convey a sense of the HTML code. The beautifulsoup object enables Python to parse the data/information contained within HTML objects from the site that Python has gained access to via the requests library.
 
