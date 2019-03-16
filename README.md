@@ -1,4 +1,4 @@
-# Python_Web_Crawler_IMDB_data_analysis
+# Python Web Crawler and ETL: IMDB Data Analysis
 # Summary: 
 
 The following repository contains 9 Jupyter notebooks of Python code implementing web crawlers, data visualizations,
