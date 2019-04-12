@@ -1,9 +1,7 @@
 # Python Web Crawler and ETL: IMDB Data Analysis
 # Summary: 
 
-The following repository contains 9 Jupyter notebooks of Python code implementing web crawlers, data visualizations,
-data analyses (e.g., exploratory data analysis, OLS regression analysis), and/or importing the web crawler data into an SQL
-database via SQLAlchemy. 
+The following repository contains 9 Jupyter notebooks of Python code implementing ETL, data cleaning, and data analysis. More specifically, the Python scripts implement the following: web crawlers, data visualizations, data analyses (e.g., exploratory data analysis, inferential analysis such as OLS regression analysis), and importing the data collected by the web crawler into a postgreSQL database via the SQLAlchemy and Pandas libraries. 
 
 Part I is shown directly in the main branch, while the other 8 files are uploaded to one of 3 folders, for ease of reference. 
 
@@ -102,10 +100,10 @@ for film in film_html:
 
 ## Description of the web crawler code:
 
-After importing the requests and Beautifulsoup libraries, a beautifulsoup object was initialized, and the first 1000 characters of the webpage's source HTML code was displayed to convey a sense of the HTML code. The beautifulsoup object enables Python to parse the data/information contained within HTML objects from the site that Python has gained access to via the requests library.
+After importing the requests and Beautifulsoup libraries, a beautifulsoup object was initialized, and the first 1000 characters of the webpage's source HTML code was displayed to convey a sense of the HTML code. The beautifulsoup object enables Python to parse the data contained within HTML objects from the site that Python has gained access to via the requests library.
 
-Empty lists were then defined for each variable (eg.., the year of the film's release, film names, lengths), so that the data for each variable, which was extracted via from the web crawler, would be apended into each list for each film. 
+Empty lists were then defined for each variable (eg., the year of the film's release, film names, film lengths), so that the data for each variable, which was extracted via from the web crawler, would be apended into each list for each film. 
 
 After specifying the empty lists, a for loop was spcified. The for loop iterates on the HTML class object containing each film's data--which is contained within a span class called "lister-item-year"--implements the web crawler. The data for several specific variables is then extracted from each film on the web page, and this parsed data is then appended to each list. 
 
-In several cases, the data are cleaned via list comprehension and other methods, such as deleting any empty space from certain variables, splicing on the data, or converting the data to integer (e.g., the metascore data clearly should be changed to integer, so the data for this variable was converted from the initial string data that's extracted to integer using the int() method).
+In several cases, the data are cleaned via list comprehension and other methods, such as deleting any empty space from certain variables, splicing on the data, regex, or converting the data to integer (e.g., the metascore data clearly should be changed to integer, so the data for this variable was converted from the initial string data that's extracted to integer using the int() method).
