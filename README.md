@@ -3,6 +3,14 @@
 
 The following repository contains 9 Jupyter notebooks of Python code implementing ETL, data cleaning, and data analysis. More specifically, the Python scripts implement the following: web crawlers, data visualizations, data analyses (e.g., exploratory data analysis, inferential analysis such as OLS regression analysis), and importing the data collected by the web crawler into a postgreSQL database via the SQLAlchemy and Pandas libraries. 
 
+## Required software and libraries for replication:
+To replicate/implement the code I used for these analyses, you will need the following software and libraries (all are open-source or at least have a free edition available): Python 3; Anaconda (the individual edition, which is free; link for download is here: https://www.anaconda.com/products/individual#Downloads). 
+
+In addition, you  will need to install 2 Python libraries via the pip command: Pandas (most importantly) and SQLAlchemy. As an example, if using a Winodws 10 OS, after installing python, you can open a Windows cmd terminal and simply invoke pip install library_name. 
+
+More specifically, here's how to install the Pandas library: <<< pip install pandas
+
+## Organization of the repositories, code, and Jupyter notebooks:
 Part I is shown directly in the main branch, while the other 8 files are uploaded to one of 3 folders, for ease of reference. 
 
 ## There are 2 or more components to each notebook- web crawlers, data cleaning, data exploration, etc.: 
