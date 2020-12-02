@@ -6,9 +6,9 @@ The following repository contains 9 Jupyter notebooks of Python code implementin
 ## Required software and libraries for replication:
 To replicate/implement the code I used for these analyses, you will need the following software and libraries (all are open-source or at least have a free edition available): Python 3; Anaconda (the individual edition, which is free; link for download is here: https://www.anaconda.com/products/individual#Downloads). 
 
-In addition, you  will need to install 2 Python libraries via the pip command: Pandas (most importantly) and SQLAlchemy. As an example, if using a Winodws 10 OS, after installing python, you can open a Windows cmd terminal and simply invoke pip install library_name. 
+In addition--assuming you just installed Python (i.e., no additional Python libraries installed)--you will need to install 4 Python libraries via the pip command: BeautifulSoup, requests, Pandas, and SQLAlchemy. As an example, if using a Winodws 10 OS, after installing python, you can open a Windows cmd terminal and simply invoke pip install library_name. 
 
-More specifically, here's how to install the Pandas library: <<< pip install pandas
+More specifically, here's how to install the Pandas library vioa Windows terminal: <<< pip install pandas
 
 ## Organization of the repositories, code, and Jupyter notebooks:
 Part I is shown directly in the main branch, while the other 8 files are uploaded to one of 3 folders, for ease of reference. 
@@ -139,12 +139,11 @@ metascores = []
 n_votes = []
 
 
-
 #Initialize monitoring of the web crawler loop
 start_t = time()
 requests = 0
 
-#Implement loop for each year in the range of 1938 to 2018
+#Implement loop for each year in the range of 1930 to 2018
 for year in year_range:
 
     # For each page from 1-10 for each given year
