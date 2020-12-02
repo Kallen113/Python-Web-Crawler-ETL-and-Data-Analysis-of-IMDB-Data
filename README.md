@@ -147,7 +147,7 @@ for year in year_range:
         '&sort=num_votes,desc&page=' + page, headers = headers)
 
         #Pause the loop at pseudo-random intervals
-        sleep(randint(8,15))
+        sleep(randint(3,12))
 
         # Monitor the get requests
         requests += 1
@@ -219,7 +219,7 @@ for year in year_range:
 ```
 ## Description of the 1936-2017 web crawler code:
 
-Unlike the more straightforward top 250 IMDB web crawler, this web crawler iterates over multiple pages from the IMDB web site, and collects data ONLY for films that have metascore data on record. While the dataset ending up being for 1936-2017, the web crawler was initially set up to refer to 1930-2017. However, so few films released from 1930-1935 had metascores on record, so these years of film data were deleted from the dataset. 
+Unlike the more straightforward top 250 IMDB web crawler, this web crawler iterates over multiple pages from the IMDB web site, and collects data ONLY for films that have metascore data on record. While the dataset ending up being for 1936-2017, the web crawler was initially set up to refer to 1930-2017. However, so few films released from 1930-1935 had metascores on record that these were essentially outliers, so these years of film data were deleted from the dataset. 
 
 To implement a web crawler over web pages throughout various pages of the IMDB site (i.e., not merely a single webpage), there are 2 additional steps: 1.) 2 variables specifying sranges were specified as separate variables: a.) One of the ranges refers to the specific film release years that the web crawler and ETL loop will iterate on: in this case, for films released from 1930-2017: this range was defined as year_range. b.) The other range refers to the number of pages for each given film release year that the web crawler will be implemented on: this range was specified as page_range. 
 
