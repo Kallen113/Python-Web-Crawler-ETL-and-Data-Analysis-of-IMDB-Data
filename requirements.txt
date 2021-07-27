@@ -1,15 +1,16 @@
-"""The various Python script were run using Python 3.7 via Jupyter notebooks. Several data analysis and data visualization libraries
-are used in these scripts, in addition to beautifulsoup, which was used to implement part of the web crawler apps.
+# The various Python script were run using Python 3.7 via Jupyter notebooks. Several data analysis and data visualization libraries
+# are used in these scripts, in addition to beautifulsoup, which was used to implement part of the web crawler apps.
+#Here's a complete list of the libraries that are used (excluding some of the specific modules contained within these libraries):
 
-Here's a complete list of the libraries that are used (excluding some of the specific modules contained within these libraries):
-
-matlotlib; Pandas; Seaborn; StatsModels; numpy; BeautifulSoup; requests; time; random; warnings; SQLAlchemy; and psycopg2.
-
-
-Anaconda and Jupyter is not necessarily needed for implementing the scripts, but would be recommended since Anaconda
-has many of the libraries--e.g., Pandas, matplotlib--built-in. 
-
-If using Anaconda/Jupyter, only 1 additional library--the beautifulsoup library-- will be required to install separately, 
-via pip install on terminal:
-"""
-pip install beautifulsoup4
+matlotlib
+Pandas 
+Seaborn 
+StatsModels 
+numpy 
+beautifulsoup4
+SQLAlchemy
+psycopg2
+requests 
+time 
+random 
+warnings 
